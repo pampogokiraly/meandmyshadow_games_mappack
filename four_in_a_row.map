@@ -1,0 +1,2388 @@
+arcade=0
+name="Four In A Row"
+recordings=-1
+size=6700,5400
+time=-1
+tile(Block,3450,2600,50,300)
+tile(Block,3850,2600,50,300)
+tile(Block,3450,2900,450)
+tile(ShadowBlock,3600,3000)
+tile(ShadowBlock,3650,3000)
+tile(ShadowBlock,3700,3000)
+tile(ShadowStart,3650,2950)
+tile(Fragile,3500,2350){
+	state=0
+}
+tile(Fragile,3550,2300){
+	state=0
+}
+tile(Fragile,3600,2250){
+	state=0
+}
+tile(Fragile,3450,2400){
+	state=0
+}
+tile(Fragile,3650,2200){
+	state=0
+}
+tile(Fragile,3700,2150){
+	state=0
+}
+tile(Fragile,3750,2100){
+	state=0
+}
+tile(MovingShadowBlock,3950,2500){
+	MovingPosCount=7
+	activated=0
+	id=279
+	loop=0
+	t0=8
+	t1=4
+	t2=28
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-450
+	y3=-450
+	y4=-50
+	y5=-50
+	y6=-550
+}
+tile(ShadowPushable,3950,1650)
+tile(ShadowPushable,4000,1650)
+tile(ShadowPushable,4050,1650)
+tile(ShadowPushable,4100,1650)
+tile(ShadowPushable,4150,1650)
+tile(ShadowPushable,4200,1650)
+tile(ShadowPushable,4250,1650)
+tile(ShadowPushable,3950,1850)
+tile(ShadowPushable,4000,1850)
+tile(ShadowPushable,4050,1850)
+tile(ShadowPushable,4100,1850)
+tile(ShadowPushable,4150,1850)
+tile(ShadowPushable,4200,1850)
+tile(ShadowPushable,4250,1850)
+tile(ShadowPushable,4250,2050)
+tile(ShadowPushable,4200,2050)
+tile(ShadowPushable,4150,2050)
+tile(ShadowPushable,4100,2050)
+tile(ShadowPushable,4050,2050)
+tile(ShadowPushable,4000,2050)
+tile(ShadowPushable,3950,2050)
+tile(ShadowPushable,3950,2250)
+tile(ShadowPushable,4000,2250)
+tile(ShadowPushable,4050,2250)
+tile(ShadowPushable,4100,2250)
+tile(ShadowPushable,4150,2250)
+tile(ShadowPushable,4200,2250)
+tile(ShadowPushable,4250,2250)
+tile(ShadowPushable,3950,2450)
+tile(ShadowPushable,4000,2450)
+tile(ShadowPushable,4050,2450)
+tile(ShadowPushable,4100,2450)
+tile(ShadowPushable,4150,2450)
+tile(ShadowPushable,4200,2450)
+tile(ShadowPushable,4250,2450)
+tile(MovingBlock,3950,3500){
+	MovingPosCount=7
+	activated=0
+	id=243
+	loop=0
+	t0=8
+	t1=4
+	t2=108
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1450
+	y3=-1450
+	y4=-1050
+	y5=-1050
+	y6=-1550
+}
+tile(Pushable,3950,3450)
+tile(Pushable,4000,3450)
+tile(Pushable,4050,3450)
+tile(Pushable,4100,3450)
+tile(Pushable,4150,3450)
+tile(Pushable,4200,3450)
+tile(Pushable,4250,3450)
+tile(Pushable,4250,3250)
+tile(Pushable,4200,3250)
+tile(Pushable,4150,3250)
+tile(Pushable,4100,3250)
+tile(Pushable,4050,3250)
+tile(Pushable,4000,3250)
+tile(Pushable,3950,3250)
+tile(Pushable,3950,3050)
+tile(Pushable,4000,3050)
+tile(Pushable,4050,3050)
+tile(Pushable,4100,3050)
+tile(Pushable,4150,3050)
+tile(Pushable,4200,3050)
+tile(Pushable,4250,3050)
+tile(Pushable,4250,2850)
+tile(Pushable,4200,2850)
+tile(Pushable,4150,2850)
+tile(Pushable,4100,2850)
+tile(Pushable,4050,2850)
+tile(Pushable,4000,2850)
+tile(Pushable,3950,2850)
+tile(Pushable,3950,2650)
+tile(Pushable,4000,2650)
+tile(Pushable,4050,2650)
+tile(Pushable,4100,2650)
+tile(Pushable,4150,2650)
+tile(Pushable,4200,2650)
+tile(Pushable,4250,2650)
+tile(Block,2600,2950,750)
+tile(Block,2600,3050,750)
+tile(Switch,2700,3000){
+	behaviour=on
+	id=243
+}
+tile(Block,2600,2550,750){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,3350,2600,50,500)
+tile(Block,3350,2100,50,500){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,2600,2850,750)
+tile(Block,2600,2750,750)
+tile(Block,2600,2650,750)
+tile(Block,2600,2450,750){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,2600,2350,750){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,2600,2250,750){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,2600,2150,750){
+	appearance=ShadowBlock_Scenery
+}
+tile(Teleporter,2600,3000){
+	automatic=0
+	destination=165
+	id=164
+}
+tile(Teleporter,2600,2900){
+	automatic=0
+	destination=166
+	id=165
+}
+tile(Teleporter,2600,2800){
+	automatic=0
+	destination=167
+	id=166
+}
+tile(Teleporter,2600,2700){
+	automatic=0
+	destination=168
+	id=167
+}
+tile(Teleporter,2600,2600){
+	automatic=0
+	destination=169
+	id=168
+}
+tile(Teleporter,2600,2500){
+	automatic=0
+	destination=170
+	id=169
+}
+tile(Teleporter,2600,2400){
+	automatic=0
+	destination=171
+	id=170
+}
+tile(Teleporter,2600,2300){
+	automatic=0
+	destination=172
+	id=171
+}
+tile(Teleporter,2600,2200){
+	automatic=0
+	destination=173
+	id=172
+}
+tile(Teleporter,2600,2100){
+	automatic=0
+	destination=164
+	id=173
+}
+tile(Block,2550,2050,850){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,2550,2100,50,500){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,2550,2600,50,500)
+tile(Block,2600,3450,450)
+tile(NotificationBlock,2700,3400){
+	message="This game requires two players."
+}
+tile(NotificationBlock,2750,3400){
+	message="The goal is to place your crates to make\nfour in a row of your crates!"
+}
+tile(NotificationBlock,2800,3400){
+	message="Both players take turns after each other."
+}
+tile(NotificationBlock,2850,3400){
+	message="Have fun and happy playing! :D"
+}
+tile(ShadowBlock,3550,3000)
+tile(ShadowBlock,3550,2950)
+tile(ShadowBlock,3750,3000)
+tile(ShadowBlock,3750,2950)
+tile(Exit,3600,2950)
+tile(Block,3000,3400)
+tile(Block,2600,3400)
+tile(Block,2600,3350,450)
+tile(NotificationBlock,2900,3400){
+	message="Press ""Tab"" to see the game board.\nUse the shadow to won the map!"
+}
+tile(PlayerStart,2650,3400)
+tile(Teleporter,2950,3400){
+	automatic=0
+	destination=164
+	id=174
+}
+tile(MovingBlock,4000,3500){
+	MovingPosCount=7
+	activated=0
+	id=244
+	loop=0
+	t0=8
+	t1=8
+	t2=108
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1450
+	y3=-1450
+	y4=-1100
+	y5=-1100
+	y6=-1550
+}
+tile(MovingBlock,4050,3500){
+	MovingPosCount=7
+	activated=0
+	id=245
+	loop=0
+	t0=8
+	t1=12
+	t2=108
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1450
+	y3=-1450
+	y4=-1150
+	y5=-1150
+	y6=-1550
+}
+tile(MovingBlock,4100,3500){
+	MovingPosCount=7
+	activated=0
+	id=246
+	loop=0
+	t0=8
+	t1=16
+	t2=108
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1450
+	y3=-1450
+	y4=-1200
+	y5=-1200
+	y6=-1550
+}
+tile(MovingBlock,4150,3500){
+	MovingPosCount=7
+	activated=0
+	id=247
+	loop=0
+	t0=8
+	t1=20
+	t2=108
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1450
+	y3=-1450
+	y4=-1250
+	y5=-1250
+	y6=-1550
+}
+tile(MovingBlock,4200,3500){
+	MovingPosCount=7
+	activated=0
+	id=248
+	loop=0
+	t0=8
+	t1=24
+	t2=108
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1450
+	y3=-1450
+	y4=-1300
+	y5=-1300
+	y6=-1550
+}
+tile(MovingBlock,4250,3500){
+	MovingPosCount=7
+	activated=0
+	id=249
+	loop=0
+	t0=8
+	t1=28
+	t2=108
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1450
+	y3=-1450
+	y4=-1350
+	y5=-1350
+	y6=-1550
+}
+tile(MovingBlock,4250,3300){
+	MovingPosCount=7
+	activated=0
+	id=250
+	loop=0
+	t0=8
+	t1=28
+	t2=92
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1250
+	y3=-1250
+	y4=-1150
+	y5=-1150
+	y6=-1350
+}
+tile(MovingBlock,4200,3300){
+	MovingPosCount=7
+	activated=0
+	id=256
+	loop=0
+	t0=8
+	t1=24
+	t2=92
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1250
+	y3=-1250
+	y4=-1100
+	y5=-1100
+	y6=-1350
+}
+tile(MovingBlock,4150,3300){
+	MovingPosCount=7
+	activated=0
+	id=255
+	loop=0
+	t0=8
+	t1=20
+	t2=92
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1250
+	y3=-1250
+	y4=-1050
+	y5=-1050
+	y6=-1350
+}
+tile(MovingBlock,4100,3300){
+	MovingPosCount=7
+	activated=0
+	id=254
+	loop=0
+	t0=8
+	t1=16
+	t2=92
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1250
+	y3=-1250
+	y4=-1000
+	y5=-1000
+	y6=-1350
+}
+tile(MovingBlock,4050,3300){
+	MovingPosCount=7
+	activated=0
+	id=253
+	loop=0
+	t0=8
+	t1=12
+	t2=92
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1250
+	y3=-1250
+	y4=-950
+	y5=-950
+	y6=-1350
+}
+tile(MovingBlock,4000,3300){
+	MovingPosCount=7
+	activated=0
+	id=252
+	loop=0
+	t0=8
+	t1=8
+	t2=92
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1250
+	y3=-1250
+	y4=-900
+	y5=-900
+	y6=-1350
+}
+tile(MovingBlock,3950,3300){
+	MovingPosCount=7
+	activated=0
+	id=251
+	loop=0
+	t0=8
+	t1=4
+	t2=92
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1250
+	y3=-1250
+	y4=-850
+	y5=-850
+	y6=-1350
+}
+tile(MovingBlock,4250,3100){
+	MovingPosCount=7
+	activated=0
+	id=257
+	loop=0
+	t0=8
+	t1=28
+	t2=76
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1050
+	y3=-1050
+	y4=-950
+	y5=-950
+	y6=-1150
+}
+tile(MovingBlock,4200,3100){
+	MovingPosCount=7
+	activated=0
+	id=263
+	loop=0
+	t0=8
+	t1=24
+	t2=76
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1050
+	y3=-1050
+	y4=-900
+	y5=-900
+	y6=-1150
+}
+tile(MovingBlock,4150,3100){
+	MovingPosCount=7
+	activated=0
+	id=262
+	loop=0
+	t0=8
+	t1=20
+	t2=76
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1050
+	y3=-1050
+	y4=-850
+	y5=-850
+	y6=-1150
+}
+tile(MovingBlock,4100,3100){
+	MovingPosCount=7
+	activated=0
+	id=261
+	loop=0
+	t0=8
+	t1=16
+	t2=76
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1050
+	y3=-1050
+	y4=-800
+	y5=-800
+	y6=-1150
+}
+tile(MovingBlock,4050,3100){
+	MovingPosCount=7
+	activated=0
+	id=260
+	loop=0
+	t0=8
+	t1=12
+	t2=76
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1050
+	y3=-1050
+	y4=-750
+	y5=-750
+	y6=-1150
+}
+tile(MovingBlock,4000,3100){
+	MovingPosCount=7
+	activated=0
+	id=259
+	loop=0
+	t0=8
+	t1=8
+	t2=76
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1050
+	y3=-1050
+	y4=-700
+	y5=-700
+	y6=-1150
+}
+tile(MovingBlock,3950,3100){
+	MovingPosCount=7
+	activated=0
+	id=258
+	loop=0
+	t0=8
+	t1=4
+	t2=76
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-1050
+	y3=-1050
+	y4=-650
+	y5=-650
+	y6=-1150
+}
+tile(MovingBlock,4250,2700){
+	MovingPosCount=7
+	activated=0
+	id=271
+	loop=0
+	t0=8
+	t1=28
+	t2=44
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-650
+	y3=-650
+	y4=-550
+	y5=-550
+	y6=-750
+}
+tile(MovingBlock,4200,2700){
+	MovingPosCount=7
+	activated=0
+	id=277
+	loop=0
+	t0=8
+	t1=24
+	t2=44
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-650
+	y3=-650
+	y4=-500
+	y5=-500
+	y6=-750
+}
+tile(MovingBlock,4150,2700){
+	MovingPosCount=7
+	activated=0
+	id=276
+	loop=0
+	t0=8
+	t1=20
+	t2=44
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-650
+	y3=-650
+	y4=-450
+	y5=-450
+	y6=-750
+}
+tile(MovingBlock,4100,2700){
+	MovingPosCount=7
+	activated=0
+	id=275
+	loop=0
+	t0=8
+	t1=16
+	t2=44
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-650
+	y3=-650
+	y4=-400
+	y5=-400
+	y6=-750
+}
+tile(MovingBlock,4050,2700){
+	MovingPosCount=7
+	activated=0
+	id=274
+	loop=0
+	t0=8
+	t1=12
+	t2=44
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-650
+	y3=-650
+	y4=-350
+	y5=-350
+	y6=-750
+}
+tile(MovingBlock,4000,2700){
+	MovingPosCount=7
+	activated=0
+	id=273
+	loop=0
+	t0=8
+	t1=8
+	t2=44
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-650
+	y3=-650
+	y4=-300
+	y5=-300
+	y6=-750
+}
+tile(MovingBlock,3950,2700){
+	MovingPosCount=7
+	activated=0
+	id=272
+	loop=0
+	t0=8
+	t1=4
+	t2=44
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-650
+	y3=-650
+	y4=-250
+	y5=-250
+	y6=-750
+}
+tile(MovingBlock,4250,2900){
+	MovingPosCount=7
+	activated=0
+	id=264
+	loop=0
+	t0=8
+	t1=28
+	t2=60
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-850
+	y3=-850
+	y4=-750
+	y5=-750
+	y6=-950
+}
+tile(MovingBlock,4200,2900){
+	MovingPosCount=7
+	activated=0
+	id=270
+	loop=0
+	t0=8
+	t1=24
+	t2=60
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-850
+	y3=-850
+	y4=-700
+	y5=-700
+	y6=-950
+}
+tile(MovingBlock,4150,2900){
+	MovingPosCount=7
+	activated=0
+	id=269
+	loop=0
+	t0=8
+	t1=20
+	t2=60
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-850
+	y3=-850
+	y4=-650
+	y5=-650
+	y6=-950
+}
+tile(MovingBlock,4100,2900){
+	MovingPosCount=7
+	activated=0
+	id=268
+	loop=0
+	t0=8
+	t1=16
+	t2=60
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-850
+	y3=-850
+	y4=-600
+	y5=-600
+	y6=-950
+}
+tile(MovingBlock,4050,2900){
+	MovingPosCount=7
+	activated=0
+	id=267
+	loop=0
+	t0=8
+	t1=12
+	t2=60
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-850
+	y3=-850
+	y4=-550
+	y5=-550
+	y6=-950
+}
+tile(MovingBlock,4000,2900){
+	MovingPosCount=7
+	activated=0
+	id=266
+	loop=0
+	t0=8
+	t1=8
+	t2=60
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-850
+	y3=-850
+	y4=-500
+	y5=-500
+	y6=-950
+}
+tile(MovingBlock,3950,2900){
+	MovingPosCount=7
+	activated=0
+	id=265
+	loop=0
+	t0=8
+	t1=4
+	t2=60
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-850
+	y3=-850
+	y4=-450
+	y5=-450
+	y6=-950
+}
+tile(MovingShadowBlock,4000,2500){
+	MovingPosCount=7
+	activated=0
+	id=280
+	loop=0
+	t0=8
+	t1=8
+	t2=28
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-450
+	y3=-450
+	y4=-100
+	y5=-100
+	y6=-550
+}
+tile(MovingShadowBlock,4050,2500){
+	MovingPosCount=7
+	activated=0
+	id=281
+	loop=0
+	t0=8
+	t1=12
+	t2=28
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-450
+	y3=-450
+	y4=-150
+	y5=-150
+	y6=-550
+}
+tile(MovingShadowBlock,4100,2500){
+	MovingPosCount=7
+	activated=0
+	id=282
+	loop=0
+	t0=8
+	t1=16
+	t2=28
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-450
+	y3=-450
+	y4=-200
+	y5=-200
+	y6=-550
+}
+tile(MovingShadowBlock,4150,2500){
+	MovingPosCount=7
+	activated=0
+	id=283
+	loop=0
+	t0=8
+	t1=20
+	t2=28
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-450
+	y3=-450
+	y4=-250
+	y5=-250
+	y6=-550
+}
+tile(MovingShadowBlock,4200,2500){
+	MovingPosCount=7
+	activated=0
+	id=284
+	loop=0
+	t0=8
+	t1=24
+	t2=28
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-450
+	y3=-450
+	y4=-300
+	y5=-300
+	y6=-550
+}
+tile(MovingShadowBlock,4250,2500){
+	MovingPosCount=7
+	activated=0
+	id=278
+	loop=0
+	t0=8
+	t1=28
+	t2=28
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-450
+	y3=-450
+	y4=-350
+	y5=-350
+	y6=-550
+}
+tile(MovingShadowBlock,4250,2300){
+	MovingPosCount=7
+	activated=0
+	id=285
+	loop=0
+	t0=8
+	t1=28
+	t2=12
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-250
+	y3=-250
+	y4=-150
+	y5=-150
+	y6=-350
+}
+tile(MovingShadowBlock,4200,2300){
+	MovingPosCount=7
+	activated=0
+	id=291
+	loop=0
+	t0=8
+	t1=24
+	t2=12
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-250
+	y3=-250
+	y4=-100
+	y5=-100
+	y6=-350
+}
+tile(MovingShadowBlock,4150,2300){
+	MovingPosCount=7
+	activated=0
+	id=290
+	loop=0
+	t0=8
+	t1=20
+	t2=12
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-250
+	y3=-250
+	y4=-50
+	y5=-50
+	y6=-350
+}
+tile(MovingShadowBlock,4100,2300){
+	MovingPosCount=7
+	activated=0
+	id=289
+	loop=0
+	t0=8
+	t1=16
+	t2=12
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-250
+	y3=-250
+	y4=0
+	y5=0
+	y6=-350
+}
+tile(MovingShadowBlock,4050,2300){
+	MovingPosCount=7
+	activated=0
+	id=288
+	loop=0
+	t0=8
+	t1=12
+	t2=12
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-250
+	y3=-250
+	y4=50
+	y5=50
+	y6=-350
+}
+tile(MovingShadowBlock,4000,2300){
+	MovingPosCount=7
+	activated=0
+	id=287
+	loop=0
+	t0=8
+	t1=8
+	t2=12
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-250
+	y3=-250
+	y4=100
+	y5=100
+	y6=-350
+}
+tile(MovingShadowBlock,3950,2300){
+	MovingPosCount=7
+	activated=0
+	id=286
+	loop=0
+	t0=8
+	t1=4
+	t2=12
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-250
+	y3=-250
+	y4=150
+	y5=150
+	y6=-350
+}
+tile(MovingShadowBlock,4250,2100){
+	MovingPosCount=7
+	activated=0
+	id=292
+	loop=0
+	t0=8
+	t1=28
+	t2=4
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-50
+	y3=-50
+	y4=50
+	y5=50
+	y6=-150
+}
+tile(MovingShadowBlock,4200,2100){
+	MovingPosCount=7
+	activated=0
+	id=298
+	loop=0
+	t0=8
+	t1=24
+	t2=4
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-50
+	y3=-50
+	y4=100
+	y5=100
+	y6=-150
+}
+tile(MovingShadowBlock,4150,2100){
+	MovingPosCount=7
+	activated=0
+	id=297
+	loop=0
+	t0=8
+	t1=20
+	t2=4
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-50
+	y3=-50
+	y4=150
+	y5=150
+	y6=-150
+}
+tile(MovingShadowBlock,4100,2100){
+	MovingPosCount=7
+	activated=0
+	id=296
+	loop=0
+	t0=8
+	t1=16
+	t2=4
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-50
+	y3=-50
+	y4=200
+	y5=200
+	y6=-150
+}
+tile(MovingShadowBlock,4050,2100){
+	MovingPosCount=7
+	activated=0
+	id=295
+	loop=0
+	t0=8
+	t1=12
+	t2=4
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-50
+	y3=-50
+	y4=250
+	y5=250
+	y6=-150
+}
+tile(MovingShadowBlock,4000,2100){
+	MovingPosCount=7
+	activated=0
+	id=294
+	loop=0
+	t0=8
+	t1=8
+	t2=4
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-50
+	y3=-50
+	y4=300
+	y5=300
+	y6=-150
+}
+tile(MovingShadowBlock,3950,2100){
+	MovingPosCount=7
+	activated=0
+	id=293
+	loop=0
+	t0=8
+	t1=4
+	t2=4
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=-50
+	y3=-50
+	y4=350
+	y5=350
+	y6=-150
+}
+tile(MovingShadowBlock,4250,1900){
+	MovingPosCount=7
+	activated=0
+	id=299
+	loop=0
+	t0=8
+	t1=28
+	t2=20
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=150
+	y3=150
+	y4=250
+	y5=250
+	y6=50
+}
+tile(MovingShadowBlock,4200,1900){
+	MovingPosCount=7
+	activated=0
+	id=305
+	loop=0
+	t0=8
+	t1=24
+	t2=20
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=150
+	y3=150
+	y4=300
+	y5=300
+	y6=50
+}
+tile(MovingShadowBlock,4150,1900){
+	MovingPosCount=7
+	activated=0
+	id=304
+	loop=0
+	t0=8
+	t1=20
+	t2=20
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=150
+	y3=150
+	y4=350
+	y5=350
+	y6=50
+}
+tile(MovingShadowBlock,4100,1900){
+	MovingPosCount=7
+	activated=0
+	id=303
+	loop=0
+	t0=8
+	t1=16
+	t2=20
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=150
+	y3=150
+	y4=400
+	y5=400
+	y6=50
+}
+tile(MovingShadowBlock,4050,1900){
+	MovingPosCount=7
+	activated=0
+	id=302
+	loop=0
+	t0=8
+	t1=12
+	t2=20
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=150
+	y3=150
+	y4=450
+	y5=450
+	y6=50
+}
+tile(MovingShadowBlock,4000,1900){
+	MovingPosCount=7
+	activated=0
+	id=301
+	loop=0
+	t0=8
+	t1=8
+	t2=20
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=150
+	y3=150
+	y4=500
+	y5=500
+	y6=50
+}
+tile(MovingShadowBlock,3950,1900){
+	MovingPosCount=7
+	activated=0
+	id=300
+	loop=0
+	t0=8
+	t1=4
+	t2=20
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=150
+	y3=150
+	y4=550
+	y5=550
+	y6=50
+}
+tile(MovingShadowBlock,4250,1700){
+	MovingPosCount=7
+	activated=0
+	id=306
+	loop=0
+	t0=8
+	t1=28
+	t2=36
+	t3=8
+	t4=8
+	t5=4
+	t6=16
+	x0=0
+	x1=-350
+	x2=-350
+	x3=-450
+	x4=-450
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=350
+	y3=350
+	y4=450
+	y5=450
+	y6=250
+}
+tile(MovingShadowBlock,4200,1700){
+	MovingPosCount=7
+	activated=0
+	id=312
+	loop=0
+	t0=8
+	t1=24
+	t2=36
+	t3=8
+	t4=12
+	t5=8
+	t6=20
+	x0=0
+	x1=-300
+	x2=-300
+	x3=-400
+	x4=-400
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=350
+	y3=350
+	y4=500
+	y5=500
+	y6=250
+}
+tile(MovingShadowBlock,4150,1700){
+	MovingPosCount=7
+	activated=0
+	id=311
+	loop=0
+	t0=8
+	t1=20
+	t2=36
+	t3=8
+	t4=16
+	t5=12
+	t6=24
+	x0=0
+	x1=-250
+	x2=-250
+	x3=-350
+	x4=-350
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=350
+	y3=350
+	y4=550
+	y5=550
+	y6=250
+}
+tile(MovingShadowBlock,4100,1700){
+	MovingPosCount=7
+	activated=0
+	id=310
+	loop=0
+	t0=8
+	t1=16
+	t2=36
+	t3=8
+	t4=20
+	t5=16
+	t6=28
+	x0=0
+	x1=-200
+	x2=-200
+	x3=-300
+	x4=-300
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=350
+	y3=350
+	y4=600
+	y5=600
+	y6=250
+}
+tile(MovingShadowBlock,4050,1700){
+	MovingPosCount=7
+	activated=0
+	id=309
+	loop=0
+	t0=8
+	t1=12
+	t2=36
+	t3=8
+	t4=24
+	t5=20
+	t6=32
+	x0=0
+	x1=-150
+	x2=-150
+	x3=-250
+	x4=-250
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=350
+	y3=350
+	y4=650
+	y5=650
+	y6=250
+}
+tile(MovingShadowBlock,4000,1700){
+	MovingPosCount=7
+	activated=0
+	id=308
+	loop=0
+	t0=8
+	t1=8
+	t2=36
+	t3=8
+	t4=28
+	t5=24
+	t6=36
+	x0=0
+	x1=-100
+	x2=-100
+	x3=-200
+	x4=-200
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=350
+	y3=350
+	y4=700
+	y5=700
+	y6=250
+}
+tile(MovingShadowBlock,3950,1700){
+	MovingPosCount=7
+	activated=0
+	id=307
+	loop=0
+	t0=8
+	t1=4
+	t2=36
+	t3=8
+	t4=32
+	t5=28
+	t6=40
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-150
+	x4=-150
+	x5=-500
+	x6=-500
+	y0=-100
+	y1=-100
+	y2=350
+	y3=350
+	y4=750
+	y5=750
+	y6=250
+}
+tile(Switch,2800,3000){
+	behaviour=on
+	id=244
+}
+tile(Switch,2900,3000){
+	behaviour=on
+	id=245
+}
+tile(Switch,3000,3000){
+	behaviour=on
+	id=246
+}
+tile(Switch,3100,3000){
+	behaviour=on
+	id=247
+}
+tile(Switch,3200,3000){
+	behaviour=on
+	id=248
+}
+tile(Switch,3300,3000){
+	behaviour=on
+	id=249
+}
+tile(Switch,3300,2900){
+	behaviour=on
+	id=250
+}
+tile(Switch,2700,2900){
+	behaviour=on
+	id=251
+}
+tile(Switch,2800,2900){
+	behaviour=on
+	id=252
+}
+tile(Switch,2900,2900){
+	behaviour=on
+	id=253
+}
+tile(Switch,3000,2900){
+	behaviour=on
+	id=254
+}
+tile(Switch,3100,2900){
+	behaviour=on
+	id=255
+}
+tile(Switch,3200,2900){
+	behaviour=on
+	id=256
+}
+tile(Switch,3300,2800){
+	behaviour=on
+	id=257
+}
+tile(Switch,2700,2800){
+	behaviour=on
+	id=258
+}
+tile(Switch,2800,2800){
+	behaviour=on
+	id=259
+}
+tile(Switch,2900,2800){
+	behaviour=on
+	id=260
+}
+tile(Switch,3000,2800){
+	behaviour=on
+	id=261
+}
+tile(Switch,3100,2800){
+	behaviour=on
+	id=262
+}
+tile(Switch,3200,2800){
+	behaviour=on
+	id=263
+}
+tile(Switch,3300,2700){
+	behaviour=on
+	id=264
+}
+tile(Switch,2700,2700){
+	behaviour=on
+	id=265
+}
+tile(Switch,2800,2700){
+	behaviour=on
+	id=266
+}
+tile(Switch,2900,2700){
+	behaviour=on
+	id=267
+}
+tile(Switch,3000,2700){
+	behaviour=on
+	id=268
+}
+tile(Switch,3100,2700){
+	behaviour=on
+	id=269
+}
+tile(Switch,3200,2700){
+	behaviour=on
+	id=270
+}
+tile(Switch,3300,2600){
+	behaviour=on
+	id=271
+}
+tile(Switch,2700,2600){
+	behaviour=on
+	id=272
+}
+tile(Switch,2800,2600){
+	behaviour=on
+	id=273
+}
+tile(Switch,2900,2600){
+	behaviour=on
+	id=274
+}
+tile(Switch,3000,2600){
+	behaviour=on
+	id=275
+}
+tile(Switch,3100,2600){
+	behaviour=on
+	id=276
+}
+tile(Switch,3200,2600){
+	behaviour=on
+	id=277
+}
+tile(Switch,3300,2500){
+	behaviour=on
+	id=278
+}
+tile(Switch,2700,2500){
+	behaviour=on
+	id=279
+}
+tile(Switch,2800,2500){
+	behaviour=on
+	id=280
+}
+tile(Switch,2900,2500){
+	behaviour=on
+	id=281
+}
+tile(Switch,3000,2500){
+	behaviour=on
+	id=282
+}
+tile(Switch,3100,2500){
+	behaviour=on
+	id=283
+}
+tile(Switch,3200,2500){
+	behaviour=on
+	id=284
+}
+tile(Switch,3300,2400){
+	behaviour=on
+	id=285
+}
+tile(Switch,2700,2400){
+	behaviour=on
+	id=286
+}
+tile(Switch,2800,2400){
+	behaviour=on
+	id=287
+}
+tile(Switch,2900,2400){
+	behaviour=on
+	id=288
+}
+tile(Switch,3000,2400){
+	behaviour=on
+	id=289
+}
+tile(Switch,3100,2400){
+	behaviour=on
+	id=290
+}
+tile(Switch,3200,2400){
+	behaviour=on
+	id=291
+}
+tile(Switch,3300,2300){
+	behaviour=on
+	id=292
+}
+tile(Switch,2700,2300){
+	behaviour=on
+	id=293
+}
+tile(Switch,2800,2300){
+	behaviour=on
+	id=294
+}
+tile(Switch,2900,2300){
+	behaviour=on
+	id=295
+}
+tile(Switch,3000,2300){
+	behaviour=on
+	id=296
+}
+tile(Switch,3100,2300){
+	behaviour=on
+	id=297
+}
+tile(Switch,3200,2300){
+	behaviour=on
+	id=298
+}
+tile(Switch,3300,2200){
+	behaviour=on
+	id=299
+}
+tile(Switch,2700,2200){
+	behaviour=on
+	id=300
+}
+tile(Switch,2800,2200){
+	behaviour=on
+	id=301
+}
+tile(Switch,2900,2200){
+	behaviour=on
+	id=302
+}
+tile(Switch,3000,2200){
+	behaviour=on
+	id=303
+}
+tile(Switch,3100,2200){
+	behaviour=on
+	id=304
+}
+tile(Switch,3200,2200){
+	behaviour=on
+	id=305
+}
+tile(Switch,3300,2100){
+	behaviour=on
+	id=306
+}
+tile(Switch,2700,2100){
+	behaviour=on
+	id=307
+}
+tile(Switch,2800,2100){
+	behaviour=on
+	id=308
+}
+tile(Switch,2900,2100){
+	behaviour=on
+	id=309
+}
+tile(Switch,3000,2100){
+	behaviour=on
+	id=310
+}
+tile(Switch,3100,2100){
+	behaviour=on
+	id=311
+}
+tile(Switch,3200,2100){
+	behaviour=on
+	id=312
+}
+tile(Checkpoint,3700,2950)
+tile(Swap,3450,2550,450){
+	appearance=Block_Scenery
+}

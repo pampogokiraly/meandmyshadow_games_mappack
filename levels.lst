@@ -1,0 +1,10 @@
+congratulations="Let me know about your game ideas on github :D (also: GG)"
+description="I try my best to recreate some games in meandmyshadow."
+name=Games
+levelfile(four_in_a_row.map,"Four In A Row")
+levelfile(Piano_Tiles.map,"Piano Tiles")
+levelfile(battleships.map,Battleships)
+levelfile(Chess.map,Chess)
+levelfile(Color_Guess.map,"Color Guess")
+levelfile(Mine_And_My_Craft.map,"Mine and My Craft")
+levelfile(GG!.map,GG!.map)

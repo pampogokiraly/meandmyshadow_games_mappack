@@ -1,0 +1,3729 @@
+arcade=0
+name="Mine and My Craft"
+recordings=0
+size=11950,2850
+time=6400
+tile(Block,5550,2650)
+tile(Block,5750,2550)
+tile(Block,6000,2450)
+tile(Block,6200,2550)
+tile(Block,6350,2700)
+tile(Block,6950,2400)
+tile(Block,6750,2600)
+tile(Block,6700,2650)
+tile(Block,6550,2700)
+tile(Block,6600,2700)
+tile(Block,6500,2700)
+tile(Block,6400,2700)
+tile(Block,6300,2650)
+tile(Block,6150,2500)
+tile(Block,6100,2500)
+tile(Block,6050,2450)
+tile(Block,5950,2450)
+tile(Block,5900,2450)
+tile(Block,5800,2500)
+tile(Block,5700,2600)
+tile(Block,5650,2600)
+tile(Block,5600,2650)
+tile(Block,7000,2400)
+tile(Block,7050,2350)
+tile(ShadowPushable,6450,2650)
+tile(ShadowPushable,6450,2600)
+tile(ShadowPushable,6450,2550)
+tile(MovingBlock,6450,2400){
+	MovingPosCount=4
+	activated=0
+	id=8
+	loop=0
+	t0=24
+	t1=20
+	t2=52
+	t3=4
+	x0=0
+	x1=0
+	x2=0
+	x3=0
+	y0=-300
+	y1=-550
+	y2=-1200
+	y3=-1150
+}
+tile(MovingBlock,6450,2700){
+	MovingPosCount=5
+	activated=0
+	id=8
+	loop=0
+	t0=5
+	t1=4
+	t2=4
+	t3=40
+	t4=4
+	x0=0
+	x1=-50
+	x2=-50
+	x3=-50
+	x4=0
+	y0=50
+	y1=50
+	y2=0
+	y3=0
+	y4=0
+}
+tile(Switch,6400,2650){
+	behaviour=on
+	id=8
+	message="Press {{{key_action}}} key to cut down the tree"
+}
+tile(Block,7100,2350)
+tile(Block,7150,2350)
+tile(Block,7550,2350)
+tile(Block,7600,2350)
+tile(Block,7750,2400)
+tile(Block,7800,2450)
+tile(Switch,6800,2500){
+	behaviour=on
+	id=9
+	message="Press {{{key_action}}} key to dig into the cave"
+}
+tile(Block,6850,2600)
+tile(Block,6950,2500)
+tile(Block,6900,2650)
+tile(Block,6950,2650)
+tile(Block,7000,2700)
+tile(Block,7050,2700)
+tile(Block,7100,2700)
+tile(Block,7150,2750)
+tile(Block,7200,2750)
+tile(Block,7250,2750)
+tile(Block,7300,2750)
+tile(Block,7350,2700)
+tile(Block,7400,2650)
+tile(Block,7400,2550)
+tile(Block,7350,2500)
+tile(Block,7300,2500)
+tile(Block,7250,2450)
+tile(Block,7200,2450)
+tile(Block,7150,2500)
+tile(Block,7100,2550)
+tile(Block,7050,2550)
+tile(Block,7000,2500)
+tile(ShadowBlock,5550,2700,700,150)
+tile(ShadowBlock,5650,2650,600)
+tile(ShadowBlock,5750,2600,500)
+tile(ShadowBlock,5800,2550,400)
+tile(ShadowBlock,5850,2500,250)
+tile(MovingShadowBlock,6450,2750,50,100){
+	MovingPosCount=3
+	activated=0
+	id=8
+	loop=0
+	t0=4
+	t1=40
+	t2=4
+	x0=-50
+	x1=-50
+	x2=0
+	y0=0
+	y1=0
+	y2=0
+}
+tile(ShadowBlock,6500,2800,1350)
+tile(ShadowBlock,6500,2750,650)
+tile(ShadowBlock,7350,2750,500)
+tile(ShadowBlock,6700,2700,300)
+tile(ShadowBlock,6750,2650,150)
+tile(ShadowBlock,6800,2600)
+tile(Switch,7250,2700){
+	behaviour=on
+	id=31
+	message="Press {{{key_action}}} key to collect the fragile-ore"
+}
+tile(Fragile,7200,2700,100){
+	state=0
+}
+tile(Fragile,7250,2650){
+	state=0
+}
+tile(MovingShadowBlock,6850,2550,50,100){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=24
+	x0=0
+	y0=300
+}
+tile(MovingShadowBlock,6900,2500,50,200){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=28
+	x0=0
+	y0=350
+}
+tile(MovingShadowBlock,6950,2500,50,200){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=28
+	x0=0
+	y0=350
+}
+tile(MovingShadowBlock,7000,2500,50,250){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=28
+	x0=0
+	y0=350
+}
+tile(MovingShadowBlock,7150,2500,50,300){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=28
+	x0=0
+	y0=350
+}
+tile(ShadowBlock,7050,2500,100)
+tile(ShadowBlock,6950,2450,250)
+tile(MovingBlock,6800,2550){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=4
+	x0=0
+	y0=50
+}
+tile(MovingBlock,6850,2500){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=28
+	x0=0
+	y0=350
+}
+tile(MovingBlock,6900,2450){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=4
+	x0=50
+	y0=0
+}
+tile(Block,7700,2450)
+tile(Block,7650,2500)
+tile(Block,7600,2550)
+tile(Block,7550,2600)
+tile(Block,7500,2650)
+tile(Block,7450,2650)
+tile(Block,7450,2550)
+tile(Block,7500,2500)
+tile(Block,7550,2450)
+tile(Block,7600,2400)
+tile(Block,7650,2350)
+tile(Switch,7350,2600){
+	behaviour=on
+	id=43
+	message="Press {{{key_action}}} key to mine a staircase"
+}
+tile(MovingBlock,7400,2600){
+	MovingPosCount=1
+	activated=0
+	id=43
+	loop=0
+	t0=20
+	x0=0
+	y0=250
+}
+tile(MovingBlock,7700,2400){
+	MovingPosCount=1
+	activated=0
+	id=43
+	loop=0
+	t0=36
+	x0=0
+	y0=450
+}
+tile(ShadowBlock,7300,2450,250)
+tile(ShadowBlock,7750,2450)
+tile(ShadowBlock,7700,2500,150,250)
+tile(ShadowBlock,7450,2700,250)
+tile(ShadowBlock,7550,2650,150)
+tile(ShadowBlock,7600,2600,100)
+tile(ShadowBlock,7650,2550)
+tile(ShadowBlock,7450,2500)
+tile(MovingShadowBlock,7450,2550,50,150){
+	MovingPosCount=1
+	activated=0
+	id=43
+	loop=0
+	t0=24
+	x0=0
+	y0=300
+}
+tile(MovingShadowBlock,7500,2500,50,200){
+	MovingPosCount=1
+	activated=0
+	id=43
+	loop=0
+	t0=28
+	x0=0
+	y0=350
+}
+tile(MovingShadowBlock,7550,2450,50,200){
+	MovingPosCount=1
+	activated=0
+	id=43
+	loop=0
+	t0=32
+	x0=0
+	y0=400
+}
+tile(MovingShadowBlock,7600,2400,50,200){
+	MovingPosCount=1
+	activated=0
+	id=43
+	loop=0
+	t0=36
+	x0=0
+	y0=450
+}
+tile(MovingShadowBlock,7650,2450,100){
+	MovingPosCount=1
+	activated=0
+	id=43
+	loop=0
+	t0=32
+	x0=0
+	y0=400
+}
+tile(MovingShadowBlock,7650,2400,50,150){
+	MovingPosCount=1
+	activated=0
+	id=43
+	loop=0
+	t0=36
+	x0=0
+	y0=450
+}
+tile(ShadowBlock,7400,2500)
+tile(ShadowBlock,7400,2700)
+tile(ShadowPushable,6250,2550)
+tile(ShadowPushable,6250,2500)
+tile(ShadowPushable,6250,2450)
+tile(MovingBlock,6200,2350,150,100){
+	MovingPosCount=3
+	activated=0
+	id=57
+	loop=0
+	t0=24
+	t1=20
+	t2=48
+	x0=0
+	x1=0
+	x2=0
+	y0=-300
+	y1=-550
+	y2=-1150
+}
+tile(MovingBlock,6250,2300){
+	MovingPosCount=4
+	activated=0
+	id=57
+	loop=0
+	t0=24
+	t1=20
+	t2=52
+	t3=4
+	x0=0
+	x1=0
+	x2=0
+	x3=0
+	y0=-300
+	y1=-550
+	y2=-1200
+	y3=-1150
+}
+tile(MovingShadowBlock,6250,2650,50,200){
+	MovingPosCount=3
+	activated=0
+	id=57
+	loop=0
+	t0=4
+	t1=48
+	t2=4
+	x0=-50
+	x1=-50
+	x2=0
+	y0=0
+	y1=0
+	y2=0
+}
+tile(ShadowBlock,6300,2700)
+tile(ShadowBlock,6300,2750,150,100)
+tile(MovingBlock,6250,2600){
+	MovingPosCount=3
+	activated=0
+	id=57
+	loop=0
+	t0=4
+	t1=48
+	t2=4
+	x0=-50
+	x1=-50
+	x2=0
+	y0=0
+	y1=0
+	y2=0
+}
+tile(Switch,6200,2500){
+	behaviour=on
+	id=57
+	message="Press {{{key_action}}} key to cut down the tree"
+}
+tile(Block,5500,0,50,2850)
+tile(NotificationBlock,5650,2550){
+	message="Hello! And welcome to the ""Mine And My Craft""!"
+}
+tile(NotificationBlock,5700,2550){
+	message="This is a perfectly accurate 2D clone of MineCraft.\nYou can mine and build! What else do you need?\nOh.. you need free building and mining..?\nMeh, we don't have that here."
+}
+tile(NotificationBlock,6150,2450){
+	message="Go ahead! Cut down those trees :D\nYou will need them to build your very first house.\n(and also the last)"
+}
+tile(Collectable,7100,2300)
+tile(Collectable,7250,2300)
+tile(Collectable,7450,2300)
+tile(Collectable,7550,2300)
+tile(NotificationBlock,6750,2550){
+	message="Huh! I hear animals up there!\nGo and kill them to get food, or you will starve...\nCome back here to mine after you got your food!"
+}
+tile(NotificationBlock,7750,2350){
+	message="If you just came from the mines, then you are able now to build a house!"
+}
+tile(Pushable,7200,750)
+tile(Pushable,7250,750)
+tile(Pushable,7300,750)
+tile(Pushable,7350,750)
+tile(Pushable,7400,750)
+tile(Pushable,7450,750)
+tile(Pushable,7500,750)
+tile(MovingBlock,7150,500,450){
+	MovingPosCount=2
+	activated=0
+	appearance=ConveyorBelt_Scenery
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingBlock,7200,450,350){
+	MovingPosCount=2
+	activated=0
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingBlock,7250,400,250){
+	MovingPosCount=2
+	activated=0
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingBlock,7300,350,150){
+	MovingPosCount=2
+	activated=0
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingBlock,7350,300){
+	MovingPosCount=2
+	activated=0
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingShadowBlock,7550,700){
+	MovingPosCount=2
+	activated=0
+	appearance=brick_wall
+	id=92
+	loop=0
+	t0=160
+	t1=5
+	x0=0
+	x1=-50
+	y0=1600
+	y1=1600
+}
+tile(MovingShadowBlock,7250,550,250,200){
+	MovingPosCount=2
+	activated=0
+	appearance=brick_wall
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingShadowBlock,7150,700){
+	MovingPosCount=2
+	activated=0
+	appearance=brick_wall
+	id=92
+	loop=0
+	t0=160
+	t1=5
+	x0=0
+	x1=50
+	y0=1600
+	y1=1600
+}
+tile(MovingBlock,7200,800,350){
+	MovingPosCount=1
+	activated=0
+	id=92
+	loop=0
+	t0=28
+	x0=350
+	y0=0
+}
+tile(MovingBlock,7200,2350,350){
+	MovingPosCount=1
+	activated=0
+	id=92
+	loop=0
+	t0=40
+	x0=0
+	y0=500
+}
+tile(Switch,7600,2300){
+	behaviour=on
+	id=92
+	message="Press {{{key_action}}} key to build up a house"
+}
+tile(MovingBlock,7600,2300){
+	MovingPosCount=1
+	activated=0
+	id=98
+	loop=0
+	t0=4
+	x0=0
+	y0=50
+}
+tile(MovingBlock,5800,600){
+	MovingPosCount=1
+	activated=0
+	id=57
+	loop=0
+	t0=8
+	x0=-100
+	y0=0
+}
+tile(Block,5750,550)
+tile(Block,5750,500)
+tile(Block,5850,550)
+tile(Block,5850,500)
+tile(Block,5850,450)
+tile(Block,5750,450)
+tile(Block,5750,400)
+tile(Block,5850,400)
+tile(ShadowStart,5800,450)
+tile(MovingBlock,5800,550){
+	MovingPosCount=1
+	activated=0
+	id=8
+	loop=0
+	t0=8
+	x0=-100
+	y0=0
+}
+tile(MovingBlock,5800,500){
+	MovingPosCount=1
+	activated=0
+	id=31
+	loop=0
+	t0=8
+	x0=-100
+	y0=0
+}
+tile(Block,5800,200)
+tile(Block,5850,650)
+tile(Block,5750,650)
+tile(Block,5750,600)
+tile(Button,5800,650){
+	behaviour=on
+	id=98
+}
+tile(Block,7850,0,50,2850)
+tile(Block,5850,600)
+tile(Block,7550,750)
+tile(Block,7200,2400,350)
+tile(ShadowBlock,7050,2400,550)
+tile(MovingShadowBlock,7200,700){
+	MovingPosCount=2
+	activated=0
+	appearance=Exit_Scenery
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingShadowBlock,7500,700){
+	MovingPosCount=2
+	activated=0
+	appearance=Exit_Scenery
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingBlock,7200,550,50,150){
+	MovingPosCount=2
+	activated=0
+	appearance=Pushable_Scenery
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingBlock,7500,550,50,150){
+	MovingPosCount=2
+	activated=0
+	appearance=Pushable_Scenery
+	id=92
+	loop=0
+	t0=40
+	t1=128
+	x0=0
+	x1=0
+	y0=0
+	y1=1600
+}
+tile(MovingShadowBlock,7300,300){
+	MovingPosCount=1
+	activated=0
+	appearance=stone_pillar_bottom
+	id=92
+	loop=0
+	t0=160
+	x0=0
+	y0=2000
+}
+tile(MovingShadowBlock,7300,250){
+	MovingPosCount=1
+	activated=0
+	appearance=stone_pillar
+	id=92
+	loop=0
+	t0=160
+	x0=0
+	y0=2000
+}
+tile(MovingShadowBlock,7300,200){
+	MovingPosCount=1
+	activated=0
+	appearance=stone_pillar
+	id=92
+	loop=0
+	t0=160
+	x0=0
+	y0=2000
+}
+tile(MovingShadowBlock,7300,150){
+	MovingPosCount=1
+	activated=0
+	appearance=stone_pillar_top
+	id=92
+	loop=0
+	t0=160
+	x0=0
+	y0=2000
+}
+tile(MovingShadowBlock,7400,150){
+	MovingPosCount=1
+	activated=0
+	appearance=stone_pillar_top
+	id=92
+	loop=0
+	t0=160
+	x0=0
+	y0=2000
+}
+tile(MovingShadowBlock,7400,200){
+	MovingPosCount=1
+	activated=0
+	appearance=stone_pillar
+	id=92
+	loop=0
+	t0=160
+	x0=0
+	y0=2000
+}
+tile(MovingShadowBlock,7400,250){
+	MovingPosCount=1
+	activated=0
+	appearance=stone_pillar
+	id=92
+	loop=0
+	t0=160
+	x0=0
+	y0=2000
+}
+tile(MovingShadowBlock,7400,300){
+	MovingPosCount=1
+	activated=0
+	appearance=stone_pillar_bottom
+	id=92
+	loop=0
+	t0=160
+	x0=0
+	y0=2000
+}
+tile(NotificationBlock,7350,2650){
+	message="Hmmm... You can't go up now!\nMake a stair-case that leads you up to the surface!"
+}
+tile(NotificationBlock,7200,2650){
+	message="Don't forget to mine down these ""fragile ores""."
+}
+tile(ShadowBlock,7200,2500){
+	appearance=snow_left
+}
+tile(ShadowBlock,7100,2600){
+	appearance=snow_right
+}
+tile(ShadowBlock,7350,2550){
+	appearance=snow_single
+}
+tile(ShadowBlock,7250,2500){
+	appearance=snow_middle
+}
+tile(MovingShadowBlock,7200,2450,100,350){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=32
+	x0=0
+	y0=400
+}
+tile(ShadowBlock,7050,2600){
+	appearance=snow_left
+}
+tile(MovingShadowBlock,7050,2550,100,200){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=24
+	x0=0
+	y0=300
+}
+tile(MovingShadowBlock,7300,2500,150,300){
+	MovingPosCount=1
+	activated=0
+	id=9
+	loop=0
+	t0=28
+	x0=0
+	y0=350
+}
+tile(NotificationBlock,6650,2650){
+	message="Read the rest of this sign after you done with your house!\nYou should go to the nether to fight some blazes.\nYou will need it to get into the end dimension!"
+}
+tile(Block,6700,2700)
+tile(Block,6650,2750)
+tile(Switch,6650,2700){
+	behaviour=toggle
+	id=99
+	message="Press {{{key_action}}} key to construct a Nether portal"
+}
+tile(MovingBlock,6650,2700){
+	MovingPosCount=1
+	activated=0
+	id=92
+	loop=0
+	t0=12
+	x0=0
+	y0=150
+}
+tile(MovingBlock,6450,350){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingShadowBlock,6450,200,100,150){
+	MovingPosCount=1
+	activated=0
+	appearance=brick_wall_2
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingBlock,6500,350){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingBlock,6550,350){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingBlock,6400,350){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingBlock,6400,150){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingBlock,6450,150){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingBlock,6500,150){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingBlock,6550,150){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingShadowBlock,6400,200){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingShadowBlock,6400,250){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingShadowBlock,6400,300){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingShadowBlock,6550,200){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingShadowBlock,6550,250){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(MovingShadowBlock,6550,300){
+	MovingPosCount=1
+	activated=0
+	appearance=ShadowPushable_Scenery
+	id=99
+	loop=0
+	t0=184
+	x0=0
+	y0=2300
+}
+tile(Teleporter,6500,2500){
+	automatic=1
+	destination=143
+	id=134
+	message=OVERWORLD!!
+}
+tile(MovingBlock,6500,2500){
+	MovingPosCount=2
+	activated=0
+	appearance=stone_pillar_top_broken_long_L
+	id=99
+	loop=0
+	t0=160
+	t1=28
+	x0=0
+	x1=0
+	y0=0
+	y1=350
+}
+tile(Teleporter,6450,2500){
+	automatic=1
+	destination=141
+	id=140
+	message=OVERWORLD!!
+}
+tile(MovingBlock,6450,2500){
+	MovingPosCount=2
+	activated=0
+	appearance=stone_pillar_top_broken_long_L
+	id=99
+	loop=0
+	t0=160
+	t1=28
+	x0=0
+	x1=0
+	y0=0
+	y1=350
+}
+tile(MovingBlock,6400,2450,150,100){
+	MovingPosCount=1
+	activated=0
+	id=8
+	loop=0
+	t0=164
+	x0=0
+	y0=-2050
+}
+tile(Block,9300,0,50,2850)
+tile(Block,9350,2800,2550)
+tile(Block,11900,0,50,2850)
+tile(Block,10750,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10800,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10850,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10900,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10950,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11200,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11150,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11100,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11050,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11000,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11450,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11400,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11350,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11300,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11250,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11650,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11600,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11550,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11500,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11850,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11800,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11750,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11850,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11800,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11750,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10750,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10800,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10850,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10900,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10950,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11000,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11050,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11100,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11150,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11200,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11250,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11300,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11350,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11400,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11450,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11500,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11550,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11600,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11650,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,11700,2050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,10850,2300,150,500){
+	appearance=ShadowPushable_Scenery
+}
+tile(ShadowPushable,11250,2300,150,500)
+tile(ShadowPushable,11650,2300,150,500)
+tile(Block,9350,2100,250,450){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,9950,2150,250,300){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,10200,2200,100,200){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,10300,2200,50,150){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,9550,1850){
+	appearance=ShadowPushable_Scenery
+}
+tile(ShadowPushable,9550,1900)
+tile(ShadowPushable,9550,1950)
+tile(ShadowPushable,9550,2000)
+tile(ShadowPushable,9700,1900)
+tile(ShadowPushable,9700,1950)
+tile(ShadowPushable,9700,2000)
+tile(Teleporter,9600,1900){
+	automatic=1
+	destination=140
+	id=141
+	message=NETHER!!
+}
+tile(Block,9600,1850){
+	appearance=ShadowPushable_Scenery
+}
+tile(Block,9650,1850){
+	appearance=ShadowPushable_Scenery
+}
+tile(Block,9700,1850){
+	appearance=ShadowPushable_Scenery
+}
+tile(Block,9700,2050){
+	appearance=ShadowPushable_Scenery
+}
+tile(Block,9650,2050){
+	appearance=ShadowPushable_Scenery
+}
+tile(Block,9600,2050){
+	appearance=ShadowPushable_Scenery
+}
+tile(Block,9550,2050){
+	appearance=ShadowPushable_Scenery
+}
+tile(Teleporter,9650,1900){
+	automatic=1
+	destination=134
+	id=143
+	message=NETHER!!
+}
+tile(Spikes,9350,2750,1500){
+	appearance=brick_wall_2
+}
+tile(Spikes,10850,2350,50,400)
+tile(NotificationBlock,10050,2100){
+	message="Look! A Nether Fortress!"
+}
+tile(NotificationBlock,10250,2150){
+	message="Seems like you have to build a bridge to get to it..."
+}
+tile(Switch,10300,2150){
+	behaviour=on
+	id=144
+	message="Press {{{key_action}}} key to build a bridge"
+}
+tile(MovingBlock,10350,2800,400){
+	MovingPosCount=1
+	activated=0
+	id=144
+	loop=0
+	t0=44
+	x0=0
+	y0=-550
+}
+tile(MovingSpikes,11750,2200){
+	MovingPosCount=1
+	activated=1
+	id=148
+	loop=1
+	t0=180
+	x0=-900
+	y0=0
+}
+tile(NotificationBlock,10750,2200){
+	message="Thats a blaze!\nDodge the fireballs and push him to the back,\nCollect the loot from the chest and RUN!!"
+}
+tile(Switch,11550,2200){
+	behaviour=on
+	id=161
+	message="Press {{{key_action}}} key to push the blaze back"
+}
+tile(Collectable,11700,2200)
+tile(Block,11700,2250){
+	appearance=ShadowFragile_Scenery
+}
+tile(Block,9600,2300,350,200){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,9900,2200){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,9600,2150,250){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,9850,2250,100){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,9600,2200,150){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,9600,2250,150){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,9600,2100,300){
+	appearance=ShadowBlock_Scenery
+}
+tile(Switch,9750,2250){
+	behaviour=on
+	id=153
+	message="Press {{{key_action}}} key to collect the Ancient Debris"
+}
+tile(Fragile,9750,2250){
+	state=0
+}
+tile(NotificationBlock,9800,2250){
+	message="Don't forget to mine some Ancient Debris. :D"
+}
+tile(MovingBlock,9600,2100,350,400){
+	MovingPosCount=1
+	activated=0
+	appearance=MovingShadowBlock_Scenery
+	id=161
+	loop=0
+	t0=60
+	x0=0
+	y0=750
+}
+tile(ShadowBlock,10800,2100){
+	appearance=stone_pillar_top
+}
+tile(ShadowBlock,10800,2150){
+	appearance=stone_pillar
+}
+tile(ShadowBlock,10800,2200){
+	appearance=stone_pillar_bottom
+}
+tile(ShadowBlock,11000,2100){
+	appearance=stone_pillar_top
+}
+tile(ShadowBlock,11000,2150){
+	appearance=stone_pillar
+}
+tile(ShadowBlock,11000,2200){
+	appearance=stone_pillar_bottom
+}
+tile(ShadowBlock,11200,2100){
+	appearance=stone_pillar_top
+}
+tile(ShadowBlock,11200,2150){
+	appearance=stone_pillar
+}
+tile(ShadowBlock,11200,2200){
+	appearance=stone_pillar_bottom
+}
+tile(ShadowBlock,11400,2100){
+	appearance=stone_pillar_top
+}
+tile(ShadowBlock,11400,2150){
+	appearance=stone_pillar
+}
+tile(ShadowBlock,11400,2200){
+	appearance=stone_pillar_bottom
+}
+tile(ShadowBlock,11600,2100){
+	appearance=stone_pillar_top
+}
+tile(ShadowBlock,11600,2150){
+	appearance=stone_pillar
+}
+tile(ShadowBlock,11600,2200){
+	appearance=stone_pillar_bottom
+}
+tile(ShadowBlock,11800,2100){
+	appearance=stone_pillar_top
+}
+tile(ShadowBlock,11800,2150){
+	appearance=stone_pillar
+}
+tile(ShadowBlock,11800,2200){
+	appearance=stone_pillar_bottom
+}
+tile(MovingSpikes,11700,2200){
+	MovingPosCount=1
+	activated=0
+	appearance=MovingShadowSpikes_Scenery
+	id=161
+	loop=0
+	t0=12
+	x0=150
+	y0=0
+}
+tile(MovingSpikes,11700,2150){
+	MovingPosCount=1
+	activated=0
+	appearance=MovingShadowSpikes_Scenery
+	id=161
+	loop=0
+	t0=12
+	x0=150
+	y0=0
+}
+tile(Block,1050,2500,2900,350){
+	appearance=brick_wall_2
+}
+tile(Block,1000,0,50,2850)
+tile(Block,3950,0,50,2850)
+tile(ShadowBlock,9350,500,2550,1000)
+tile(ShadowBlock,9350,1650,300)
+tile(ShadowBlock,9350,1600,600)
+tile(ShadowBlock,9350,1500,1250)
+tile(ShadowBlock,9350,1550,750)
+tile(MovingBlock,11450,1550){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(Block,11050,1500,750){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,11100,1550,350){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,11400,1600,100){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,11100,1600,250){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,11150,1650,150){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,11200,1700,100){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,11500,1550,300){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,11550,1600,200){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,11550,1650,150){
+	appearance=ShadowBlock_Scenery
+}
+tile(MovingBlock,11350,1600){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11500,1600){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11600,1750){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11550,1700){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11500,1750){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11350,1800){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11300,1650){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11300,1750){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11350,1750){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11400,1750){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11300,1700){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11350,1700){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11350,1650){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11400,1650){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11450,1650){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11500,1650){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11500,1700){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11450,1700){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11400,1700){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,11450,1800){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(NotificationBlock,10550,2200){
+	message="You can also mine that Glowstone up on the roof!\nYou don't need it but you can use it at the dragon fight."
+}
+tile(Switch,10600,2200){
+	behaviour=on
+	id=205
+	message="Press {{{key_action}}} key to climb up to the roof"
+}
+tile(MovingBlock,11150,150,100){
+	MovingPosCount=2
+	activated=0
+	id=205
+	loop=0
+	t0=16
+	t1=140
+	x0=200
+	x1=200
+	y0=0
+	y1=1750
+}
+tile(MovingBlock,11100,200,100){
+	MovingPosCount=2
+	activated=0
+	id=205
+	loop=0
+	t0=16
+	t1=140
+	x0=200
+	x1=200
+	y0=0
+	y1=1750
+}
+tile(MovingBlock,11050,250,100){
+	MovingPosCount=2
+	activated=0
+	id=205
+	loop=0
+	t0=16
+	t1=140
+	x0=200
+	x1=200
+	y0=0
+	y1=1750
+}
+tile(Switch,11400,1850){
+	behaviour=on
+	id=217
+	message="Press {{{key_action}}} key to mine the Glowstone"
+}
+tile(MovingBlock,11450,1850){
+	MovingPosCount=1
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=112
+	x0=0
+	y0=-1400
+}
+tile(MovingBlock,10750,2800){
+	MovingPosCount=4
+	activated=0
+	id=205
+	loop=0
+	t0=12
+	t1=48
+	t2=40
+	t3=48
+	x0=-150
+	x1=-150
+	x2=-150
+	x3=-150
+	y0=0
+	y1=-600
+	y2=-600
+	y3=0
+}
+tile(MovingBlock,10800,2800){
+	MovingPosCount=2
+	activated=0
+	id=205
+	loop=0
+	t0=16
+	t1=52
+	x0=-200
+	x1=-200
+	y0=0
+	y1=-650
+}
+tile(MovingBlock,10850,2800){
+	MovingPosCount=2
+	activated=0
+	id=205
+	loop=0
+	t0=20
+	t1=56
+	x0=-250
+	x1=-250
+	y0=0
+	y1=-700
+}
+tile(MovingBlock,10900,2800){
+	MovingPosCount=2
+	activated=0
+	id=205
+	loop=0
+	t0=24
+	t1=60
+	x0=-300
+	x1=-300
+	y0=0
+	y1=-750
+}
+tile(ShadowBlock,1300,2250,250,250)
+tile(Block,1300,1850,250,400){
+	appearance=ShadowBlock_Scenery
+}
+tile(ShadowBlock,2150,2200,250,250)
+tile(Block,2150,1400,250,800){
+	appearance=ShadowBlock_Scenery
+}
+tile(ShadowBlock,3350,2250,250,250)
+tile(Block,3350,1550,250,700){
+	appearance=ShadowBlock_Scenery
+}
+tile(Block,1950,2450,1500){
+	appearance=brick_wall_2
+}
+tile(Block,2350,2400,400){
+	appearance=brick_wall_2
+}
+tile(Block,1050,2450,350){
+	appearance=brick_wall_2
+}
+tile(Block,1050,2400,150){
+	appearance=brick_wall_2
+}
+tile(Block,1050,2250,100,150){
+	appearance=brick_wall_2
+}
+tile(Block,1050,2000,50,250){
+	appearance=brick_wall_2
+}
+tile(Collectable,1400,1750)
+tile(Collectable,2250,1300)
+tile(Collectable,3450,1450)
+tile(MovingShadowSpikes,650,1950){
+	MovingPosCount=1
+	activated=1
+	id=232
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,0,1950){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=271
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,50,1950){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=272
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,100,2000){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=273
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,150,2000){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=274
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,200,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=275
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,250,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=276
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,300,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=277
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,350,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=278
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,400,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=279
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,450,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=280
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,500,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=281
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,550,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=282
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,600,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=283
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,300,2100){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=284
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,350,2100){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=285
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,400,2100){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=286
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,450,2100){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=287
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,500,2100){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=288
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,550,2100){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=289
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,600,2100){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=290
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,400,2150){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=291
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,400,2200){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=292
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,450,2200){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=293
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,400,2000){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=294
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,450,2000){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=295
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,400,1950){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=296
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,450,1950){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=297
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,500,1950){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=298
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,500,1900){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=299
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,450,1900){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=300
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,400,1900){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=301
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,400,1850){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=302
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,500,1850){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=303
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,650,2050){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=304
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,650,2000){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=305
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,700,2000){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=306
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,750,2000){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=307
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,700,1950){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=309
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,800,2000){
+	MovingPosCount=1
+	activated=1
+	appearance=ShadowFragile_Scenery
+	id=310
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowBlock,750,1950){
+	MovingPosCount=1
+	activated=1
+	appearance=Fragile_Scenery
+	id=311
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowSpikes,550,2000){
+	MovingPosCount=1
+	activated=1
+	id=312
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowSpikes,350,2000){
+	MovingPosCount=1
+	activated=1
+	id=313
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowSpikes,250,2000){
+	MovingPosCount=1
+	activated=1
+	id=314
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowSpikes,150,1950){
+	MovingPosCount=1
+	activated=1
+	id=315
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingShadowSpikes,50,1900){
+	MovingPosCount=1
+	activated=1
+	id=316
+	loop=1
+	t0=1037
+	x0=4150
+	y0=0
+}
+tile(MovingBlock,7650,600){
+	MovingPosCount=2
+	activated=0
+	id=153
+	loop=0
+	t0=28
+	t1=136
+	x0=-350
+	x1=-350
+	y0=0
+	y1=1700
+}
+tile(Switch,7350,2150){
+	behaviour=on
+	id=321
+	message="Press {{{key_action}}} key to craft a Netherite armor"
+}
+tile(MovingBlock,7700,600){
+	MovingPosCount=2
+	activated=0
+	id=153
+	loop=0
+	t0=28
+	t1=136
+	x0=-350
+	x1=-350
+	y0=0
+	y1=1700
+}
+tile(MovingBlock,7700,550){
+	MovingPosCount=2
+	activated=0
+	id=153
+	loop=0
+	t0=28
+	t1=136
+	x0=-350
+	x1=-350
+	y0=0
+	y1=1700
+}
+tile(MovingBlock,7750,600){
+	MovingPosCount=2
+	activated=0
+	id=153
+	loop=0
+	t0=28
+	t1=136
+	x0=-350
+	x1=-350
+	y0=0
+	y1=1700
+}
+tile(MovingSpikes,1050,1750){
+	MovingPosCount=19
+	activated=1
+	id=328
+	loop=1
+	t0=16
+	t1=4
+	t10=4
+	t11=32
+	t12=4
+	t13=36
+	t14=4
+	t15=56
+	t16=4
+	t17=36
+	t18=12
+	t2=20
+	t3=4
+	t4=12
+	t5=4
+	t6=4
+	t7=16
+	t8=4
+	t9=40
+	x0=0
+	x1=50
+	x10=850
+	x11=1250
+	x12=1250
+	x13=1700
+	x14=1700
+	x15=2400
+	x16=2400
+	x17=2850
+	x18=2850
+	x2=50
+	x3=100
+	x4=100
+	x5=150
+	x6=150
+	x7=350
+	x8=350
+	x9=850
+	y0=200
+	y1=200
+	y10=650
+	y11=650
+	y12=600
+	y13=600
+	y14=650
+	y15=650
+	y16=700
+	y17=700
+	y18=550
+	y2=450
+	y3=450
+	y4=600
+	y5=600
+	y6=650
+	y7=650
+	y8=700
+	y9=700
+}
+tile(MovingSpikes,1050,1550){
+	MovingPosCount=19
+	activated=1
+	id=329
+	loop=1
+	t0=32
+	t1=4
+	t10=4
+	t11=32
+	t12=4
+	t13=36
+	t14=4
+	t15=56
+	t16=4
+	t17=36
+	t18=12
+	t2=20
+	t3=4
+	t4=12
+	t5=4
+	t6=4
+	t7=16
+	t8=4
+	t9=40
+	x0=0
+	x1=50
+	x10=850
+	x11=1250
+	x12=1250
+	x13=1700
+	x14=1700
+	x15=2400
+	x16=2400
+	x17=2850
+	x18=2850
+	x2=50
+	x3=100
+	x4=100
+	x5=150
+	x6=150
+	x7=350
+	x8=350
+	x9=850
+	y0=400
+	y1=400
+	y10=850
+	y11=850
+	y12=800
+	y13=800
+	y14=850
+	y15=850
+	y16=900
+	y17=900
+	y18=750
+	y2=650
+	y3=650
+	y4=800
+	y5=800
+	y6=850
+	y7=850
+	y8=900
+	y9=900
+}
+tile(MovingSpikes,1050,1350){
+	MovingPosCount=19
+	activated=1
+	id=330
+	loop=1
+	t0=48
+	t1=4
+	t10=4
+	t11=32
+	t12=4
+	t13=36
+	t14=4
+	t15=56
+	t16=4
+	t17=36
+	t18=12
+	t2=20
+	t3=4
+	t4=12
+	t5=4
+	t6=4
+	t7=16
+	t8=4
+	t9=40
+	x0=0
+	x1=50
+	x10=850
+	x11=1250
+	x12=1250
+	x13=1700
+	x14=1700
+	x15=2400
+	x16=2400
+	x17=2850
+	x18=2850
+	x2=50
+	x3=100
+	x4=100
+	x5=150
+	x6=150
+	x7=350
+	x8=350
+	x9=850
+	y0=600
+	y1=600
+	y10=1050
+	y11=1050
+	y12=1000
+	y13=1000
+	y14=1050
+	y15=1050
+	y16=1100
+	y17=1100
+	y18=950
+	y2=850
+	y3=850
+	y4=1000
+	y5=1000
+	y6=1050
+	y7=1050
+	y8=1100
+	y9=1100
+}
+tile(Teleporter,2400,2200){
+	automatic=1
+	destination=336
+	id=333
+}
+tile(Teleporter,3300,2250){
+	automatic=1
+	destination=337
+	id=334
+}
+tile(Teleporter,1550,2300){
+	automatic=1
+	destination=338
+	id=335
+}
+tile(Block,1500,2300){
+	appearance=ShadowBlock_Scenery
+}
+tile(Teleporter,2250,1300){
+	automatic=0
+	id=336
+}
+tile(Teleporter,3450,1450){
+	automatic=0
+	id=337
+}
+tile(Teleporter,1400,1750){
+	automatic=0
+	id=338
+}
+tile(Spikes,1700,2400){
+	appearance=ShadowSpikes_Scenery
+}
+tile(Spikes,1700,2350){
+	appearance=ShadowSpikes_Scenery
+}
+tile(Switch,1700,2450){
+	behaviour=on
+	id=339
+}
+tile(Switch,2950,2400){
+	behaviour=on
+	id=340
+}
+tile(Spikes,2950,2350){
+	appearance=ShadowSpikes_Scenery
+}
+tile(Spikes,2950,2300){
+	appearance=ShadowSpikes_Scenery
+}
+tile(Switch,3750,2450){
+	behaviour=on
+	id=341
+}
+tile(Spikes,3750,2400){
+	appearance=ShadowSpikes_Scenery
+}
+tile(Spikes,3750,2350){
+	appearance=ShadowSpikes_Scenery
+}
+tile(MovingBlock,3300,2450){
+	MovingPosCount=1
+	activated=0
+	appearance=brick_wall_2
+	id=339
+	loop=0
+	t0=3
+	x0=0
+	y0=-47
+}
+tile(MovingBlock,2400,2400){
+	MovingPosCount=1
+	activated=0
+	appearance=brick_wall_2
+	id=341
+	loop=0
+	t0=3
+	x0=0
+	y0=-48
+}
+tile(MovingBlock,1550,2500){
+	MovingPosCount=1
+	activated=0
+	appearance=brick_wall_2
+	id=340
+	loop=0
+	t0=3
+	x0=0
+	y0=-44
+}
+tile(MovingBlock,3350,850,250){
+	MovingPosCount=1
+	activated=0
+	id=355
+	loop=0
+	t0=20
+	x0=250
+	y0=0
+}
+tile(Block,3600,800)
+tile(Block,2400,650)
+tile(MovingBlock,2150,700,250){
+	MovingPosCount=1
+	activated=0
+	id=352
+	loop=0
+	t0=20
+	x0=250
+	y0=0
+}
+tile(Button,2250,1350){
+	appearance=ShadowBlock_Scenery
+	behaviour=on
+	id=352
+}
+tile(Block,1550,1100)
+tile(MovingBlock,1300,1150,250){
+	MovingPosCount=1
+	activated=0
+	id=354
+	loop=0
+	t0=20
+	x0=250
+	y0=0
+}
+tile(Button,1400,1800){
+	appearance=ShadowBlock_Scenery
+	behaviour=on
+	id=354
+}
+tile(Button,3450,1500){
+	appearance=ShadowBlock_Scenery
+	behaviour=on
+	id=355
+}
+tile(Pushable,2350,650){
+	appearance=ShadowFragile_Scenery
+}
+tile(MovingSpikes,2950,2400){
+	MovingPosCount=4
+	activated=1
+	appearance=MovingShadowSpikes_Scenery
+	id=356
+	loop=1
+	t0=50
+	t1=60
+	t2=50
+	t3=26
+	x0=0
+	x1=0
+	x2=0
+	x3=0
+	y0=50
+	y1=50
+	y2=0
+	y3=0
+}
+tile(MovingSpikes,1700,2450){
+	MovingPosCount=4
+	activated=1
+	appearance=MovingShadowSpikes_Scenery
+	id=357
+	loop=1
+	t0=50
+	t1=60
+	t2=50
+	t3=26
+	x0=0
+	x1=0
+	x2=0
+	x3=0
+	y0=50
+	y1=50
+	y2=0
+	y3=0
+}
+tile(MovingSpikes,3750,2450){
+	MovingPosCount=4
+	activated=1
+	appearance=MovingShadowSpikes_Scenery
+	id=358
+	loop=1
+	t0=50
+	t1=60
+	t2=50
+	t3=26
+	x0=0
+	x1=0
+	x2=0
+	x3=0
+	y0=50
+	y1=50
+	y2=0
+	y3=0
+}
+tile(Block,2350,500,250)
+tile(Block,2600,0,50,450)
+tile(Block,2300,0,50,350)
+tile(MovingBlock,2350,500,250){
+	MovingPosCount=4
+	activated=0
+	id=420
+	loop=1
+	t0=250
+	t1=20
+	t2=20
+	t3=120
+	x0=250
+	x1=0
+	x2=0
+	x3=0
+	y0=0
+	y1=0
+	y2=0
+	y3=0
+}
+tile(MovingBlock,2100,450,250){
+	MovingPosCount=4
+	activated=0
+	id=420
+	loop=1
+	t0=250
+	t1=20
+	t2=20
+	t3=120
+	x0=250
+	x1=250
+	x2=0
+	x3=0
+	y0=0
+	y1=0
+	y2=0
+	y3=0
+}
+tile(Pushable,2350,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2550,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2350,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2400,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2450,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,2500,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Block,2850,450)
+tile(Pushable,2300,650){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2200,650){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2150,650){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2150,600){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2150,550){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2200,550){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2200,600){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2250,600){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2250,550){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2300,550){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2300,600){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2350,600){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,2350,550){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3350,800){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3400,800){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3350,750){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3400,750){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3350,700){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3400,700){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3450,700){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3450,750){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3500,750){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3500,700){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3550,700){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3550,750){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3550,800){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,3500,800){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1300,1100){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1350,1100){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1300,1050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1350,1050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1300,1000){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1350,1000){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1400,1000){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1400,1050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1450,1050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1450,1000){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1500,1000){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1500,1050){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1500,1100){
+	appearance=ShadowFragile_Scenery
+}
+tile(Pushable,1450,1100){
+	appearance=ShadowFragile_Scenery
+}
+tile(MovingBlock,2850,850,150){
+	MovingPosCount=2
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=16
+	t1=108
+	x0=-200
+	x1=-200
+	y0=0
+	y1=1350
+}
+tile(MovingBlock,2250,2100,150){
+	MovingPosCount=5
+	activated=0
+	appearance=MovingShadowBlock_Scenery
+	id=217
+	loop=1
+	t0=32
+	t1=4
+	t2=4
+	t3=32
+	t4=200
+	x0=400
+	x1=400
+	x2=400
+	x3=0
+	x4=0
+	y0=0
+	y1=50
+	y2=0
+	y3=0
+	y4=0
+}
+tile(Block,2100,450)
+tile(MovingBlock,1600,500,250){
+	MovingPosCount=4
+	activated=0
+	id=420
+	loop=1
+	t0=250
+	t1=20
+	t2=20
+	t3=120
+	x0=250
+	x1=0
+	x2=0
+	x3=0
+	y0=0
+	y1=0
+	y2=0
+	y3=0
+}
+tile(MovingBlock,1350,450,250){
+	MovingPosCount=4
+	activated=0
+	id=420
+	loop=1
+	t0=250
+	t1=20
+	t2=20
+	t3=120
+	x0=250
+	x1=250
+	x2=0
+	x3=0
+	y0=0
+	y1=0
+	y2=0
+	y3=0
+}
+tile(Block,1550,0,50,450)
+tile(Block,1850,0,50,450)
+tile(Pushable,1600,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,450){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,400){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,350){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,300){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,250){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,200){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,150){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,100){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,50){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1600,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1650,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1700,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1750,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(Pushable,1800,0){
+	appearance=ShadowPushable_Scenery
+}
+tile(MovingBlock,1700,900,150){
+	MovingPosCount=2
+	activated=0
+	appearance=Pushable_Scenery
+	id=217
+	loop=0
+	t0=16
+	t1=108
+	x0=200
+	x1=200
+	y0=0
+	y1=1350
+}
+tile(MovingBlock,1400,2150,150){
+	MovingPosCount=5
+	activated=0
+	appearance=MovingShadowBlock_Scenery
+	id=217
+	loop=1
+	t0=40
+	t1=4
+	t2=4
+	t3=40
+	t4=200
+	x0=500
+	x1=500
+	x2=500
+	x3=0
+	x4=0
+	y0=0
+	y1=50
+	y2=0
+	y3=0
+	y4=0
+}
+tile(MovingBlock,2650,0,50,100){
+	MovingPosCount=1
+	activated=0
+	id=321
+	loop=0
+	t0=28
+	x0=-350
+	y0=0
+}
+tile(MovingBlock,1900,0,50,100){
+	MovingPosCount=1
+	activated=0
+	id=321
+	loop=0
+	t0=28
+	x0=-350
+	y0=0
+}
+tile(MovingBlock,5800,700){
+	MovingPosCount=1
+	activated=0
+	id=98
+	loop=0
+	t0=32
+	x0=0
+	y0=-400
+}
+tile(Block,5750,350)
+tile(Block,5750,300)
+tile(Block,5750,250)
+tile(Block,5750,200)
+tile(Block,5850,200)
+tile(Block,5850,250)
+tile(Block,5850,350)
+tile(Block,5850,300)
+tile(Teleporter,5800,250){
+	automatic=1
+	destination=383
+	id=382
+}
+tile(Teleporter,3300,50){
+	automatic=0
+	id=383
+}
+tile(Teleporter,3500,100){
+	automatic=1
+	destination=387
+	id=384
+}
+tile(Button,3300,100){
+	behaviour=on
+	id=385
+}
+tile(Teleporter,2450,0){
+	automatic=0
+	id=387
+}
+tile(ShadowConveyorBelt,2350,400,150){
+	activated=1
+	speed10=-1
+}
+tile(Button,2300,400){
+	behaviour=on
+	id=388
+}
+tile(Block,3250,0,150)
+tile(MovingBlock,3250,50,50,100){
+	MovingPosCount=1
+	activated=0
+	id=385
+	loop=0
+	t0=16
+	x0=200
+	y0=0
+}
+tile(MovingBlock,3250,150,150){
+	MovingPosCount=1
+	activated=0
+	id=385
+	loop=0
+	t0=16
+	x0=200
+	y0=0
+}
+tile(MovingBlock,3350,50,50,100){
+	MovingPosCount=1
+	activated=0
+	id=385
+	loop=0
+	t0=16
+	x0=200
+	y0=0
+}
+tile(PlayerStart,5600,2450)
+tile(ShadowConveyorBelt,2500,400,100){
+	activated=1
+	speed10=-100
+}
+tile(Block,2250,300,50,150)
+tile(ShadowBlock,2400,50,50,300)
+tile(ShadowBlock,2500,50,50,350)
+tile(ShadowBlock,2350,0,100)
+tile(ShadowBlock,2500,0,100)
+tile(MovingShadowBlock,2700,0,150){
+	MovingPosCount=1
+	activated=1
+	id=393
+	loop=0
+	t0=24
+	x0=-300
+	y0=-50
+}
+tile(Block,5950,2200,150)
+tile(Block,5900,2150,50,100)
+tile(Block,6100,2150,50,100)
+tile(ShadowBlock,6050,2150){
+	appearance=Exit_Scenery
+}
+tile(ShadowBlock,5950,2150){
+	appearance=Exit_Scenery
+}
+tile(ShadowBlock,6000,2150){
+	appearance=Exit_Scenery
+}
+tile(Teleporter,6050,2150){
+	automatic=1
+	destination=409
+	id=397
+}
+tile(Teleporter,5950,2150){
+	automatic=1
+	destination=409
+	id=398
+}
+tile(Teleporter,6000,2150){
+	automatic=1
+	destination=409
+	id=399
+}
+tile(Switch,5850,2450){
+	behaviour=on
+	id=400
+}
+tile(MovingBlock,5850,2450){
+	MovingPosCount=1
+	activated=0
+	id=161
+	loop=0
+	t0=4
+	x0=0
+	y0=50
+}
+tile(MovingBlock,5500,2800){
+	MovingPosCount=2
+	activated=0
+	id=400
+	loop=0
+	t0=28
+	t1=28
+	x0=350
+	x1=350
+	y0=0
+	y1=-350
+}
+tile(MovingBlock,5500,2750){
+	MovingPosCount=4
+	activated=0
+	id=400
+	loop=0
+	t0=40
+	t1=4
+	t2=28
+	t3=32
+	x0=0
+	x1=0
+	x2=350
+	x3=350
+	y0=0
+	y1=50
+	y2=50
+	y3=-350
+}
+tile(MovingBlock,5500,2700){
+	MovingPosCount=4
+	activated=0
+	id=400
+	loop=0
+	t0=80
+	t1=8
+	t2=28
+	t3=36
+	x0=0
+	x1=0
+	x2=350
+	x3=350
+	y0=0
+	y1=100
+	y2=100
+	y3=-350
+}
+tile(MovingBlock,5500,2650){
+	MovingPosCount=4
+	activated=0
+	id=400
+	loop=0
+	t0=120
+	t1=12
+	t2=28
+	t3=40
+	x0=0
+	x1=0
+	x2=350
+	x3=350
+	y0=0
+	y1=150
+	y2=150
+	y3=-350
+}
+tile(MovingBlock,5500,2600){
+	MovingPosCount=4
+	activated=0
+	id=400
+	loop=0
+	t0=160
+	t1=16
+	t2=28
+	t3=44
+	x0=0
+	x1=0
+	x2=350
+	x3=350
+	y0=0
+	y1=200
+	y2=200
+	y3=-350
+}
+tile(MovingBlock,5500,2550){
+	MovingPosCount=4
+	activated=0
+	id=400
+	loop=0
+	t0=200
+	t1=20
+	t2=28
+	t3=48
+	x0=0
+	x1=0
+	x2=350
+	x3=350
+	y0=0
+	y1=250
+	y2=250
+	y3=-350
+}
+tile(MovingBlock,5500,2500){
+	MovingPosCount=4
+	activated=0
+	id=400
+	loop=0
+	t0=240
+	t1=24
+	t2=28
+	t3=52
+	x0=0
+	x1=0
+	x2=350
+	x3=350
+	y0=0
+	y1=300
+	y2=300
+	y3=-350
+}
+tile(NotificationBlock,5850,2400){
+	message="Up there you can find the ""End Portal""!\nYou need some ""Blaze Powder"" from the nether to activate it"
+}
+tile(ConveyorBelt,3000,1950,150){
+	activated=1
+	speed10=100
+}
+tile(Spikes,3000,1850,200)
+tile(Teleporter,3100,1900){
+	automatic=0
+	id=409
+}
+tile(Exit,3000,1900)
+tile(MovingBlock,2950,1850,50,100){
+	MovingPosCount=1
+	activated=0
+	id=388
+	loop=0
+	t0=50
+	x0=0
+	y0=-50
+}
+tile(Block,2950,1950)
+tile(MovingBlock,2350,1950){
+	MovingPosCount=1
+	activated=0
+	appearance=MovingShadowBlock_Scenery
+	id=388
+	loop=0
+	t0=8
+	x0=100
+	y0=0
+}
+tile(MovingBlock,2350,1950){
+	MovingPosCount=2
+	activated=0
+	appearance=MovingShadowBlock_Scenery
+	id=388
+	loop=0
+	t0=8
+	t1=8
+	x0=100
+	x1=200
+	y0=0
+	y1=0
+}
+tile(MovingBlock,2350,1950){
+	MovingPosCount=3
+	activated=0
+	appearance=MovingShadowBlock_Scenery
+	id=388
+	loop=0
+	t0=8
+	t1=8
+	t2=8
+	x0=100
+	x1=200
+	x2=300
+	y0=0
+	y1=0
+	y2=0
+}
+tile(MovingBlock,2350,1950){
+	MovingPosCount=4
+	activated=0
+	appearance=MovingShadowBlock_Scenery
+	id=388
+	loop=0
+	t0=8
+	t1=8
+	t2=8
+	t3=8
+	x0=100
+	x1=200
+	x2=300
+	x3=400
+	y0=0
+	y1=0
+	y2=0
+	y3=0
+}
+tile(MovingBlock,2350,1950){
+	MovingPosCount=5
+	activated=0
+	appearance=MovingShadowBlock_Scenery
+	id=388
+	loop=0
+	t0=8
+	t1=8
+	t2=8
+	t3=8
+	t4=8
+	x0=100
+	x1=200
+	x2=300
+	x3=400
+	x4=500
+	y0=0
+	y1=0
+	y2=0
+	y3=0
+	y4=0
+}
+tile(Button,3150,1950){
+	behaviour=on
+	id=420
+}
+tile(MovingBlock,2950,1950){
+	MovingPosCount=2
+	activated=0
+	id=420
+	loop=0
+	t0=4
+	t1=16
+	x0=0
+	x1=200
+	y0=-50
+	y1=-50
+}
+tile(Spikes,3300,2200)
+tile(Spikes,3250,2200)
+tile(Spikes,2400,2150)
+tile(Spikes,2450,2150)
+tile(Spikes,1550,2250)
+tile(Spikes,1600,2250)
+tile(Block,1600,500,250)
+tile(Checkpoint,5900,2050)
+tile(Checkpoint,3700,2450)
+tile(Checkpoint,2900,2400)
+tile(Checkpoint,1900,2450)
+tile(Checkpoint,1150,2350)
+tile(NotificationBlock,5850,2100){
+	message="Get prepared to the END FIGHT!\nIn this part i taked all possible dangers from the original MC, and put them in here!\nYour objectives to win the game can be found at the next sign:"
+}
+tile(NotificationBlock,5900,2100){
+	message="1. Kill some Endermans to get enderpearls.\n2. Teleport and destroy all crystals on the obsidian towers, except the middle one\n3. Survive until the gate opens to the exit\n4. Destroy the last crystal and jump on to the last small parkour!"
+}
+tile(Spikes,2900,1750)
+tile(Spikes,2950,1750)
+tile(Spikes,3000,1750)
+tile(Checkpoint,9650,2000)
+tile(NotificationBlock,5600,2600){
+	message="MineCraft is a bit different......\nThis is an action based map where you have to fight your way trough for the exit\n(the exit is in the end dimension)!"
+}
+scenerylayer(bg_Clouds){
+	cameraSpeed=1,1
+	speed=0.1,0
+	scenery(ShadowBlock_Scenery,6150,2050)
+	scenery(ShadowBlock_Scenery,6200,2000)
+	scenery(ShadowBlock_Scenery,5950,2050)
+	scenery(ShadowBlock_Scenery,6000,2100)
+	scenery(ShadowBlock_Scenery,6000,2050)
+	scenery(ShadowBlock_Scenery,6050,2100)
+	scenery(ShadowBlock_Scenery,6100,2050)
+	scenery(ShadowBlock_Scenery,6150,2000)
+	scenery(ShadowBlock_Scenery,6200,1950)
+	scenery(ShadowBlock_Scenery,6150,1950)
+	scenery(ShadowBlock_Scenery,6100,2000)
+	scenery(ShadowBlock_Scenery,6050,2000)
+	scenery(ShadowBlock_Scenery,6000,2000)
+	scenery(ShadowBlock_Scenery,6050,2050)
+	scenery(ShadowBlock_Scenery,6500,2200)
+	scenery(ShadowBlock_Scenery,6550,2200)
+	scenery(ShadowBlock_Scenery,6600,2150)
+	scenery(ShadowBlock_Scenery,6550,2150)
+	scenery(ShadowBlock_Scenery,6600,2100)
+	scenery(ShadowBlock_Scenery,6650,2100)
+	scenery(ShadowBlock_Scenery,6650,2050)
+	scenery(ShadowBlock_Scenery,6500,2150)
+	scenery(ShadowBlock_Scenery,6450,2150)
+	scenery(ShadowBlock_Scenery,6900,1800)
+	scenery(ShadowBlock_Scenery,6950,1800)
+	scenery(ShadowBlock_Scenery,7000,1850)
+	scenery(ShadowBlock_Scenery,7050,1850)
+	scenery(ShadowBlock_Scenery,7050,1900)
+	scenery(ShadowBlock_Scenery,6950,1850)
+	scenery(ShadowBlock_Scenery,7000,1900)
+	scenery(ShadowBlock_Scenery,7100,1900)
+	scenery(ShadowBlock_Scenery,6900,1850)
+	scenery(ShadowBlock_Scenery,6850,1850)
+	scenery(ShadowBlock_Scenery,6950,1900)
+	scenery(ShadowBlock_Scenery,6900,1900)
+	scenery(ShadowBlock_Scenery,7000,1950)
+	scenery(ShadowBlock_Scenery,6950,1950)
+	scenery(ShadowBlock_Scenery,6800,1850)
+	scenery(ShadowBlock_Scenery,6850,1900)
+	scenery(ShadowBlock_Scenery,6900,1950)
+	scenery(ShadowBlock_Scenery,7800,1800)
+	scenery(ShadowBlock_Scenery,7650,1900)
+	scenery(ShadowBlock_Scenery,7750,1850)
+	scenery(ShadowBlock_Scenery,7700,1850)
+	scenery(ShadowBlock_Scenery,7700,1950)
+	scenery(ShadowBlock_Scenery,7700,1900)
+	scenery(ShadowBlock_Scenery,7750,1900)
+	scenery(ShadowBlock_Scenery,7750,1950)
+	scenery(ShadowBlock_Scenery,7750,1800)
+	scenery(ShadowBlock_Scenery,7800,1900)
+	scenery(ShadowBlock_Scenery,7800,1850)
+	scenery(ShadowBlock_Scenery,5550,2300)
+	scenery(ShadowBlock_Scenery,5600,2300)
+	scenery(ShadowBlock_Scenery,5650,2250)
+	scenery(ShadowBlock_Scenery,5700,2200)
+	scenery(ShadowBlock_Scenery,5750,2150)
+	scenery(ShadowBlock_Scenery,5700,2150)
+	scenery(ShadowBlock_Scenery,5650,2200)
+	scenery(ShadowBlock_Scenery,5600,2250)
+	scenery(ShadowBlock_Scenery,5550,2250)
+	scenery(ShadowBlock_Scenery,5700,2250)
+	scenery(ShadowBlock_Scenery,6250,2000)
+	scenery(ShadowBlock_Scenery,5750,2200)
+	scenery(ShadowBlock_Scenery,5600,2200)
+	scenery(ShadowBlock_Scenery,6550,2100)
+}
+scenerylayer(bg_Nether){
+	cameraSpeed=1,1
+	speed=0,0
+	scenery(brick_wall_2,9350,0,2550,2800)
+	scenery(brick_wall,5950,2150)
+	scenery(brick_wall,6000,2150)
+	scenery(brick_wall,6050,2150)
+}
+scenerylayer(fg_decoration){
+	cameraSpeed=1,1
+	speed=0,0
+	scenery(stone_pillar_bottom_broken_short_R_2,5750,2500)
+	scenery(stone_pillar_bottom_broken_short_R_2,6100,2450)
+	scenery(stone_pillar_bottom_broken_short_R_2,6300,2600)
+	scenery(stone_pillar_bottom_broken_short_R_2,6550,2650)
+	scenery(stone_pillar_bottom_broken_short_R_2,6950,2350)
+	scenery(stone_pillar_bottom_broken_short_R_2,7050,2300)
+	scenery(stone_pillar_bottom_broken_short_R_2,7750,2350)
+	scenery(stone_pillar_bottom_broken_short_L_2,5950,2400)
+	scenery(stone_pillar_bottom_broken_short_L_2,5550,2600)
+	scenery(stone_pillar_bottom_broken_short_L_2,6750,2550)
+	scenery(stone_pillar_bottom_broken_short_L_2,7550,2300)
+	scenery(stone_pillar_bottom,6600,2650)
+	scenery(stone_pillar_bottom,6700,2600)
+	scenery(stone_pillar_bottom,6350,2650)
+	scenery(stone_pillar_bottom_broken_long_L,6600,2600)
+	scenery(stone_pillar_bottom_broken_long_R,6700,2550)
+	scenery(stone_pillar_bottom_broken_long_R,6350,2600)
+	scenery(brick_wall_2,10850,2350,50,400)
+	scenery(brick_wall_2,10950,2350,50,400)
+	scenery(brick_wall_2,11350,2350,50,400)
+	scenery(brick_wall_2,11250,2350,50,400)
+	scenery(brick_wall_2,11750,2350,50,400)
+	scenery(brick_wall_2,11650,2350,50,400)
+}

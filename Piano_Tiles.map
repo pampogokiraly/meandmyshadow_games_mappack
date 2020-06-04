@@ -1,0 +1,845 @@
+arcade=0
+name="Piano Tiles"
+recordings=1
+size=800,11300
+time=12
+tile(Block,500,4350,50,2850)
+tile(PlayerStart,300,5600)
+tile(Block,250,4350,50,2850)
+tile(MovingShadowBlock,350,4750,50,150){
+	MovingPosCount=1
+	activated=1
+	id=38
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,4600,50,150){
+	MovingPosCount=1
+	activated=1
+	id=50
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,400,4450,50,150){
+	MovingPosCount=1
+	activated=1
+	id=51
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,4300,50,150){
+	MovingPosCount=1
+	activated=1
+	id=52
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,4150,50,150){
+	MovingPosCount=1
+	activated=1
+	id=53
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,350,4000,50,150){
+	MovingPosCount=1
+	activated=1
+	id=54
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,3850,50,150){
+	MovingPosCount=1
+	activated=1
+	id=55
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,400,3700,50,150){
+	MovingPosCount=1
+	activated=1
+	id=56
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,3550,50,150){
+	MovingPosCount=1
+	activated=1
+	id=57
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,3400,50,150){
+	MovingPosCount=1
+	activated=1
+	id=58
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,4800){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=89
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,400,4800,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=90
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,4650,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=91
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,4500,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=92
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,450,4500){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=93
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,4350,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=94
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,4200,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=95
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,4050){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=96
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,400,4050,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=97
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,3900,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=98
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,3750,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=99
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,450,3750){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=100
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,3600,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=101
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,3450,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=102
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,350,3250,50,150){
+	MovingPosCount=1
+	activated=1
+	id=111
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,3050,50,150){
+	MovingPosCount=1
+	activated=1
+	id=112
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,2900,50,150){
+	MovingPosCount=1
+	activated=1
+	id=113
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,2750,50,150){
+	MovingPosCount=1
+	activated=1
+	id=114
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,400,2600,50,150){
+	MovingPosCount=1
+	activated=1
+	id=115
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,2450,50,150){
+	MovingPosCount=1
+	activated=1
+	id=116
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,400,2300,50,150){
+	MovingPosCount=1
+	activated=1
+	id=117
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,2150,50,150){
+	MovingPosCount=1
+	activated=1
+	id=118
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,350,2150,50,150){
+	MovingPosCount=1
+	activated=1
+	id=119
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,2000,50,150){
+	MovingPosCount=1
+	activated=1
+	id=120
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,350,650,50,150){
+	MovingPosCount=1
+	activated=1
+	id=122
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,1850,50,150){
+	MovingPosCount=1
+	activated=1
+	id=123
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,1700,50,150){
+	MovingPosCount=1
+	activated=1
+	id=124
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,400,500,50,150){
+	MovingPosCount=1
+	activated=1
+	id=125
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,400,1550,50,150){
+	MovingPosCount=1
+	activated=1
+	id=126
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,350,1400,50,150){
+	MovingPosCount=1
+	activated=1
+	id=127
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,350,50,150){
+	MovingPosCount=1
+	activated=1
+	id=128
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,400,1250,50,150){
+	MovingPosCount=1
+	activated=1
+	id=129
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,300,1100,50,150){
+	MovingPosCount=1
+	activated=1
+	id=130
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,350,200,50,150){
+	MovingPosCount=1
+	activated=1
+	id=131
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,950,50,150){
+	MovingPosCount=1
+	activated=1
+	id=132
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,350,800,50,150){
+	MovingPosCount=1
+	activated=1
+	id=133
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingShadowBlock,450,50,50,150){
+	MovingPosCount=1
+	activated=1
+	id=134
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,400,3300,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=135
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,3300){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=136
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,3100,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=137
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,2950,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=138
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,2800,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=139
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,2650,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=140
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,450,2650){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=141
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,2500,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=142
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,2350,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=143
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,450,2350){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=144
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,2200){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=145
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,400,2200){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=146
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,2050,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=147
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,700){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=148
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,400,700,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=149
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,1900,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=150
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,1750,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=151
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,550,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=152
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,450,550){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=153
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,1600,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=154
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,450,1600){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=155
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,1450){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=156
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,400,1450,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=157
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,400,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=158
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,1300,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=159
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,450,1300){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=160
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,350,1150,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=161
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,250){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=162
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,400,250,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=163
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,1000,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=164
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,850){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=165
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,400,850,100){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=166
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(MovingBlock,300,100,150){
+	MovingPosCount=1
+	activated=1
+	appearance=brick_wall
+	id=167
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(ShadowBlock,0,5750)
+tile(ShadowBlock,50,5750)
+tile(ShadowBlock,100,5750)
+tile(ShadowBlock,150,5750)
+tile(ShadowBlock,150,5700)
+tile(ShadowBlock,150,5650)
+tile(ShadowBlock,100,5650)
+tile(ShadowBlock,50,5650)
+tile(ShadowBlock,0,5650)
+tile(ShadowBlock,0,5700)
+tile(ShadowStart,50,5700)
+tile(Exit,100,5700)
+tile(MovingShadowBlock,300,0,200){
+	MovingPosCount=1
+	activated=1
+	appearance=Checkpoint_Scenery
+	id=188
+	loop=1
+	t0=1280
+	x0=0
+	y0=6400
+}
+tile(Button,300,5700){
+	behaviour=toggle
+	id=189
+}
+tile(Button,350,5700){
+	behaviour=toggle
+	id=190
+}
+tile(Button,400,5700){
+	behaviour=toggle
+	id=191
+}
+tile(Button,450,5700){
+	behaviour=toggle
+	id=192
+}
+tile(Teleporter,300,5650){
+	automatic=0
+	destination=196
+	id=193
+}
+tile(Teleporter,350,5650){
+	automatic=0
+	destination=196
+	id=194
+}
+tile(Teleporter,400,5650){
+	automatic=0
+	destination=193
+	id=195
+}
+tile(Teleporter,450,5650){
+	automatic=0
+	destination=193
+	id=196
+}
+scenerylayer(bg_Background){
+	cameraSpeed=1,1
+	speed=0,0
+	scenery(brick_wall,300,4350,200,1400)
+	scenery(brick_wall,50,5700)
+	scenery(brick_wall,100,5700)
+}
+scenerylayer(fg_Foreground){
+	cameraSpeed=1,1
+	speed=0,0
+	scenery(brick_wall,300,5750,200,1450)
+}
